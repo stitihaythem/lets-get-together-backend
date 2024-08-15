@@ -31,5 +31,5 @@ jobs:
 
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb init -p java -r your-aws-region lets-get-together
+          eb init -p java -r eu-west-3 lets-get-together
           eb deploy Lets-get-together-env
